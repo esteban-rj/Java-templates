@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "protected-private",
+        "optionals",
+        "futures",
+        "quarkus-getting-started/src/test/java/org/acme/jwt"
+    ]
+}
