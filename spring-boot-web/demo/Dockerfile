@@ -1,0 +1,6 @@
+#CREATE MACHINE TO HOLD SPRING BOOT APP
+FROM openjdk:24-slim-bullseye
+#ADD JAR FILE TO CONTAINER
+ADD target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
+#RUN JAR FILE
+ENTRYPOINT ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
